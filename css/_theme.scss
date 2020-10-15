@@ -1,0 +1,35 @@
+$primary:#2d4b90;
+$secondary:#ffb76c;
+$secondary-dark: #fc893d;
+$gray: #323333;
+$white: #f9f7f4;
+
+@mixin flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin desktop-xs {
+  @media (max-width:576px) {
+    @content
+  }
+}
+
+@mixin desktop-md {
+  @media (max-width:768px) {
+    @content
+  }
+}
+
+@mixin desktop-990 {
+  @media (max-width:990px) {
+    @content
+  }
+}
+
+@mixin mobile-up {
+  @media (min-width:768px) {
+    @content
+  }
+}

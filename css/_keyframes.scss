@@ -1,0 +1,76 @@
+@keyframes nav-hover {
+  0% {
+    opacity: .5;
+    width: 60px;
+    height: 60px;
+  }
+
+  100% {
+    opacity: 0;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@keyframes left-line-move {
+  0% {
+    transform: rotate(90deg);
+    left: -70%
+  }
+
+  100% {
+    transform: rotate(0);
+    left: 0;
+  }
+}
+
+@keyframes right-line-move {
+  0% {
+    transform: rotate(-145deg);
+    right: -70%
+  }
+
+  100% {
+    transform: rotate(0);
+    right: 0;
+  }
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(2);
+    opacity: .3;
+  }
+
+  50% {
+    transform: scale(4);
+    opacity: .5;
+  }
+
+  100% {
+    transform: scale(6);
+    opacity: 0;
+  }
+}
+
+@keyframes rotate {
+  0% {
+      transform: translate(-50%, 0) rotateZ(0deg);
+  }
+  50% {
+      transform: translate(-50%, -2%) rotateZ(180deg);
+  }
+  100% {
+      transform: translate(-50%, 0%) rotateZ(360deg);
+  }
+}
+
+@keyframes white-line {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 100px;
+  }
+}
